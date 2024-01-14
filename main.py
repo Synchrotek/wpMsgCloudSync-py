@@ -8,7 +8,7 @@ import time
 service = Service(executable_path=r"./chromedriver.exe")
 options = webdriver.ChromeOptions()
 options.add_argument(
-    "user-data-dir=C:/Users/satya/AppData/Local/Google/Chrome/User Data/"
+    "user-data-dir=C:/Users/User/AppData/Local/Google/Chrome/User Data/"
 )
 options.add_argument("--profile-directory=Default")
 # options.add_argument("--headless")
